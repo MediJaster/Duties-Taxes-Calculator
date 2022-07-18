@@ -3,7 +3,7 @@ import converter
 optimistic_rate = 22
 catastrophic_rate = 28
 
-print("\n\tITALIAN CUSTOMS CALCULATOR\n")
+print("\n\tDUTIES AND TAXES CALCULATOR\n")
 
 if (input("Do you need me to convert currencies?: ")).lower() in ["yes", "y", "yup"]:
     converting_from = ".."
