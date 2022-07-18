@@ -12,7 +12,7 @@ def currency_converter_api(amount_to_convert=1, convert_from="USD", convert_to="
     # Selects the correct dictionary entry, storing it inside a variable
     rate = data["rates"][convert_to]
 
-    return amount_to_convert * rate
+    return round((amount_to_convert * rate),2)
 
 
 def vat_calculator(amount, percentage=100):
