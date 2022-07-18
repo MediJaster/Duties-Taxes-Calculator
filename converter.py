@@ -16,4 +16,4 @@ def currency_converter_api(amount_to_convert=1, convert_from="USD", convert_to="
 
 
 def vat_calculator(amount, percentage=100):
-    return round(((amount / 100) * percentage), 2) + amount
+    return round((((amount / 100) * percentage)+ amount), 2)
