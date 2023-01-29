@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>330</width>
-    <height>280</height>
+    <height>285</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -30,9 +30,9 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>10</y>
+     <y>20</y>
      <width>91</width>
-     <height>31</height>
+     <height>21</height>
     </rect>
    </property>
    <property name="text">
@@ -66,19 +66,6 @@ p, li { white-space: pre-wrap; }
     </rect>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_2">
-   <property name="geometry">
-    <rect>
-     <x>240</x>
-     <y>10</y>
-     <width>81</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Dark Mode</string>
-   </property>
-  </widget>
   <widget class="QCheckBox" name="checkBox">
    <property name="geometry">
     <rect>
@@ -100,6 +87,9 @@ p, li { white-space: pre-wrap; }
      <width>151</width>
      <height>22</height>
     </rect>
+   </property>
+   <property name="currentText">
+    <string>EUR</string>
    </property>
    <item>
     <property name="text">
@@ -129,6 +119,26 @@ p, li { white-space: pre-wrap; }
    <item>
     <property name="text">
      <string>EUR</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox_3">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>20</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>EUR</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>USD</string>
     </property>
    </item>
   </widget>

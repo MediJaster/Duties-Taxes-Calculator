@@ -42,7 +42,7 @@ class MyWindow(QtWidgets.QMainWindow):
 
         self.label = QtWidgets.QLabel(self)
         self.label.setText("Amount")
-        self.label.setGeometry(10,10,90,30)
+        self.label.setGeometry(10,20,90,20)
 
         self.amount_input = QtWidgets.QTextEdit(self)
         self.amount_input.setGeometry(10,50,310,30)
@@ -61,12 +61,12 @@ class MyWindow(QtWidgets.QMainWindow):
         self.to_currency_combo_box = QtWidgets.QComboBox(self)
         self.to_currency_combo_box.setGeometry(180,130,140,20)
 
+        self.from_currency_combo_box.addItem("From")
+        self.to_currency_combo_box.addItem("To")
+
         for currency in self.available_currencies:
             self.from_currency_combo_box.addItem(currency)
             self.to_currency_combo_box.addItem(currency)
-
-        self.from_currency_combo_box.setCurrentText("From")
-        self.to_currency_combo_box.setCurrentText("To")
 
         # Result Output
 
